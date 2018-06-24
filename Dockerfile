@@ -6,7 +6,10 @@ RUN apt-get update && apt-get install -y \
      sqlite3 \
      libsqlite3-dev \
      bundler \
-     git
+     git \
+     zlibc \
+     zlib1g \
+     zlib1g-dev
 
 #https://github.com/sportdb/sport.db
 RUN gem install sportdb
