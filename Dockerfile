@@ -14,6 +14,8 @@ RUN gem install sportdb
 #https://github.com/sportdb/footty
 RUN gem install footty
 
+#https://github.com/sportdb/sport.db.web
+RUN gem install sportweb
 
 VOLUME ["/home/football.db"]
 
